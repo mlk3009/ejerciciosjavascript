@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+
+    <link rel="stylesheet" href="../estilos/style.css">
+</head>
+<body>
+    <header>
+        <nav class="link">
+                <a href="../index.html">Inicio</a>
+                <a href="./calculoNotas.html">Notas</a>
+                <a href="./velocidad.html">Velocidad</a>
+                <a href="./iva.html">I.V.A</a>
+                <a href="#" class="seleccionado">Pulgadas</a>
+        </nav>
+    </header>
+
+    <h1>Convertidor de pulgadas a centimetros</h1>
+    <img src="../img/Convertidor-de-pulgadas-a-centímetros.jpg" alt="imagen de conversion de pulgadas a centimetros">
+
+    <section>
+        <label for="pulgadas">Pulgadas:</label>
+        <input id="pulgadas" type="number" name="pulgadas" placeholder="ingrese la cantidad de pulgadas">
+
+        <label for="centimetros">Centimetros:</label>
+        <input id="centimetros" type="number" name="centimetros" placeholder="resultado en centimetros" readonly>
+    
+        <button class="btn" id="convertir">Convertir</button>
+    
+        <div id="resultado"></div>
+    </section>
+
+    <footer>   <h2>Lucas Herrera</h2>    </footer>
+
+    <script src="../js/script.js"></script>
+
+</body>
+</html>

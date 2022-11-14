@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <link rel="stylesheet" href="../estilos/style.css">
+    <title>Document</title>
+</head>
+<body>
+    <header>
+        <nav class="link">
+                <a href="../index.html">Inicio</a>
+                <a href="#" class="seleccionado">Notas</a>
+                <a href="./htmls/velocidad.html">Velocidad</a>
+                <a href="./htmls/iva.html">I.V.A</a>
+                <a href="./htmls/pulgadas.html">Pulgadas</a>
+        </nav>
+    </header>
+
+    <script>
+        nota = prompt("ingrese la nota a chequear");
+        
+        if(typeof(nota) == isNaN){
+            nota = prompt("ingrese una opcion valida");
+        } else if (nota == 5){
+            alert("nota suficiente");
+        } else if (nota == 6 || nota == 7){
+            alert("buena nota");
+        } else if (nota == 8 || nota == 9){
+            alert("muy buena nota");
+        } else if (nota == 10 || nota == 11|| nota == 12){
+            alert("nota excelente");
+        } else {
+            alert("nota insuficiente o invalida")
+        }
+    </script>
+</body>
+</html>
